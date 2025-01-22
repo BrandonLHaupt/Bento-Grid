@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans";
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+        'schedule social social media'
+        'schedule social social media'
+        'contentAI accounts posting media'
+        'contentAI growth followers followers';
+    gap: 28px;
+    padding: 5rem;
+    /* background-color: green; */
+}
+
+.purple {
+    background-color: #7650dc;
+}
+
+.lightPurple {
+    background-color: #dacffc;
+}
+
+.lightYellow {
+    background-color: #f9eee1;
+}
+
+.white{
+    background-color: #fff;
+}
+
+.yellow {
+    background-color: #ffcb6b;
+}
+
+.numberTxt {
+    font-size: 3rem;
+}
+
+.schedule,
+.social,
+.accounts, 
+.contentAi, 
+.followers, 
+.growth, 
+.posting,
+.media {
+    border-radius: 10px;
+}
+
+.accounts, .schedule {
+    width: 293px;
+    height: 231px;
+}
+
+.schedule{
+    grid-area: schedule;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scheduleTxt {
+    font-size: 2rem;
+}
+
+.schedule img {
+    height: 55px;
+}
+
+.social{
+    grid-area: social;
+}
+
+.media{
+    grid-area: media;
+    display: flex;
+    flex-direction: column;
+    height: 391px;
+    width: 231px;
+}
+
+.media img {
+    height: 288px;
+}
+
+.contentAi{
+    grid-area: contentAI;
+}
+
+.accounts {
+    grid-area: accounts;
+    overflow: hidden;
+}
+
+.accounts img {
+    height: 70px;
+
+}
+
+.growth{
+    grid-area: growth;
+}
+
+.posting{
+    grid-area: posting;
+    height: 224px;
+    width: 231px;
+}
+
+.posting img {
+    height: 86px;
+}
+
+.followers{
+    grid-area: followers;
+}
+
