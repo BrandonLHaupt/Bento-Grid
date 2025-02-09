@@ -147,3 +147,8 @@ main {
 .followers {
   grid-area: followers;
 }
+
+.followers img {
+    height: 171px;
+    width: 177px;;
+}
