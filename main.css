@@ -65,7 +65,7 @@ main {
     border-radius: 10px;
 }
 
-.accounts, .schedule {
+.accounts {
     width: 293px;
     height: 231px;
 }
@@ -75,6 +75,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    width: 231px;
+    height: 375px;
 }
 
 .scheduleTxt {
@@ -82,7 +85,8 @@ main {
 }
 
 .schedule img {
-    height: 55px;
+    width: 172px;
+    object-fit: cover;
 }
 
 .social{
@@ -103,6 +107,13 @@ main {
 
 .contentAi{
     grid-area: contentAI;
+    width: 231px;
+    height: 392px;
+}
+
+.contentAi img {
+    width: 184px;
+    height: 202px;
 }
 
 .accounts {
@@ -117,6 +128,8 @@ main {
 
 .growth{
     grid-area: growth;
+    width: 231px;
+    height: 222px;
 }
 
 .posting{
